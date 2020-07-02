@@ -1,0 +1,4 @@
+title: Analyzes
+modelClass: WDesighners\Services\Models\Analyzes
+toolbar:
+    buttons: reorder_toolbar

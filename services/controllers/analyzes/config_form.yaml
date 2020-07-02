@@ -1,0 +1,11 @@
+name: Analyzes
+modelClass: WDesighners\Services\Models\Analyzes
+form: $/wdesighners/services/models/analyzes/analyzes.yaml
+defaultRedirect: wdesighners/services/analyzes
+create:
+    redirect: 'wdesighners/services/analyzes/update/:id'
+    redirectClose: wdesighners/services/analyzes
+update:
+    redirect: wdesighners/services/analyzes
+    redirectClose: wdesighners/services/analyzes
+preview: {  }

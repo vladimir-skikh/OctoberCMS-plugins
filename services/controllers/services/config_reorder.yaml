@@ -1,0 +1,4 @@
+title: Services
+modelClass: WDesighners\Services\Models\Services
+toolbar:
+    buttons: reorder_toolbar

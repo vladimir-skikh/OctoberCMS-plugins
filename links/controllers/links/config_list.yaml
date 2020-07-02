@@ -1,0 +1,12 @@
+list: $/wdesighners/links/models/links/columns.yaml
+modelClass: WDesighners\Links\Models\Links
+title: Links
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'wdesighners/links/links/update/:id'

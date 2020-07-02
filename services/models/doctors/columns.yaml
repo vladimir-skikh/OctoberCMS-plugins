@@ -1,0 +1,30 @@
+columns:
+    first_name:
+        label: Имя
+        type: text
+        sortable: true
+    second_name:
+        label: Фамилия
+        type: text
+        searchable: true
+        sortable: true
+    middle_name:
+        label: Отчество
+        type: text
+        sortable: true
+    specialty:
+        label: Специальность
+        type: text
+        searchable: true
+        sortable: true
+    experience:
+        label: 'Опыт работы'
+        type: text
+        sortable: true
+    slug:
+        label: URL
+        type: text
+        sortable: true
+    show:
+        label: 'Показывать врача на сайте?'
+        type: switch

@@ -1,0 +1,10 @@
+name: Doctors
+modelClass: WDesighners\Services\Models\Doctors
+form: $/wdesighners/services/models/doctors/doctors.yaml
+defaultRedirect: wdesighners/services/doctors
+create:
+    redirect: 'wdesighners/services/doctors/update/:id'
+    redirectClose: wdesighners/services/doctors
+update:
+    redirect: wdesighners/services/doctors
+    redirectClose: wdesighners/services/doctors

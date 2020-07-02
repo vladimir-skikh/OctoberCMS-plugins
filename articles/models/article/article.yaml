@@ -1,0 +1,33 @@
+fields:
+    article_title:
+        label: 'wdesighners.articles::lang.article.article_title'
+        span: auto
+        required: 1
+        type: text
+        commentAbove: 'Заголовок статьи'
+    article_url:
+        label: 'wdesighners.articles::lang.article.article_url'
+        span: auto
+        required: 1
+        type: text
+        commentAbove: 'Ссылка на источник'
+    article_description:
+        label: 'wdesighners.articles::lang.article.article_description'
+        size: large
+        span: full
+        required: 1
+        type: textarea
+        commentAbove: 'Краткий отрывок статьи'
+    articleimage:
+        label: 'wdesighners.articles::lang.article.article_image'
+        mode: image
+        imageWidth: '270'
+        imageHeight: '173'
+        useCaption: true
+        thumbOptions:
+            mode: auto
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload
+        commentAbove: 'Изображение для статьи'

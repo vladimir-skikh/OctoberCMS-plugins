@@ -1,0 +1,22 @@
+fields:
+    select:
+        label: 'wdesighners.links::lang.links.select'
+        options:
+            email: email
+            phone: phone
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    link_value:
+        label: 'wdesighners.links::lang.links.link_value'
+        span: auto
+        required: 1
+        type: text
+    link_href:
+        label: 'wdesighners.links::lang.links.link_href'
+        span: auto
+        placeholder: 'Значение для атрибута "href"'
+        required: 1
+        type: text
+        comment: 'Для ввода номера телефона удалите все пробелы и сопутствующие знаки'

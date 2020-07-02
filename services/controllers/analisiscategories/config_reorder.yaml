@@ -1,0 +1,4 @@
+title: AnalisisCategories
+modelClass: WDesighners\Services\Models\AnalysisCategories
+toolbar:
+    buttons: reorder_toolbar

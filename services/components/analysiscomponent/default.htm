@@ -1,0 +1,24 @@
+{% set analyzes = __SELF__.analyzes %}
+{% set category_name = __SELF__.analysis_category_name %}
+
+<table class="analysis_table" id="analysis_table">
+  <tr>
+    <td colspan="4" class="analysis_table-category">{{category_name}}</td>
+  </tr>
+  <tr class="table-header-raw">
+    <th>Артикул</th>
+    <th>Название анализа</th>
+    <th>Стоимость</th>
+    <th>Срок выполнение</th>
+  </tr>
+  
+  
+  {%  for analyse in analyzes %}
+  <tr>
+    <td class="table-analysis_code">{{analyse.analysis_code}}</td>
+    <td class="table-analysis_name">{{analyse.analysis_name}}</td>
+    <td class="table-analysis_price">{{analyse.analysis_price}} руб.</td>
+    <td class="table-analysis_time">{{analyse.analysis_time}}</td>
+  </tr>
+  {%  endfor %}
+</table>

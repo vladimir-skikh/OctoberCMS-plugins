@@ -1,0 +1,27 @@
+<section class="section section-consult">
+  <div class="wrapper wrapper-consult">
+  <form class="consult-form"  id="consult-form"
+  data-request="onSend" 
+  onsubmit="$(this).request('onSubmit', {
+      success: function() {
+        $('#consult-form')[0].reset();
+      }
+  });"
+  >
+      <h2 class="consult-title">Бесплатная консультация</h2>
+      <p class="consult-text">Позвоните нам по номеру 8 (4722) 38-08-08 или оставьте заявку и получите бесплатную консультацию!  
+      Мы свяжемся с вами в течение 10 минут.</p>
+
+      <label for="consult_name" class="consult-label consult-label__name">Ваше имя</label>
+      <input type="text" class="consult-input consult-input__name" name="consult_name" id="consult_name" placeholder="Введите ваше ФИО" required>
+      
+      <label for="consult_phone" class="consult-label consult-label__phone">Ваш телефон</label>
+      <input type="tel" class="consult-input consult-input__phone" name="consult_phone" id="consult_phone" placeholder="Введите ваш телефон" required>
+      
+      <label for="consult_question" class="consult-label consult-label__question">Сообщение</label>
+      <input type="text" class="consult-input consult-input__question" name="consult_question" id="consult_question" placeholder="Здесь вы можете оставить свой вопрос" required>
+
+      <button class="button button-consult" type="submit">Отправить</button>
+  </form>
+  </div>
+</section>

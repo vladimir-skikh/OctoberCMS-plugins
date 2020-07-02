@@ -1,0 +1,48 @@
+plugin:
+    name: 'wdesighners.services::lang.plugin.name'
+    description: 'wdesighners.services::lang.plugin.description'
+    author: w-desighners
+    icon: oc-icon-list
+    homepage: ''
+permissions:
+    wdesighners.services.manage_category:
+        tab: 'wdesighners.services::lang.categories.manage_category'
+        label: 'wdesighners.services::lang.categories.manage_category'
+    wdesighners.services.manage_service:
+        tab: 'wdesighners.services::lang.services.manage_service'
+        label: 'wdesighners.services::lang.services.manage_service'
+    wdesighners.services.manage_doctors:
+        tab: 'wdesighners.services::lang.doctors.manage_doctor'
+        label: 'wdesighners.services::lang.doctors.manage_doctor'
+    wdesighners.services.manage_analizes:
+        tab: 'wdesighners.services::lang.services.manage_analyzes'
+        label: 'wdesighners.services::lang.services.manage_analyzes'
+    wdesighners.services.manage_analisis_categories:
+        tab: 'wdesighners.services::lang.services.manage_analisis_categories'
+        label: 'wdesighners.services::lang.services.manage_analisis_categories'
+navigation:
+    Services:
+        label: Клиника
+        url: wdesighners/services/services
+        icon: icon-hospital-o
+        sideMenu:
+            services_all:
+                label: Услуги
+                url: wdesighners/services/services
+                icon: icon-list-ul
+            Categories:
+                label: 'Категории услуг'
+                url: wdesighners/services/categories
+                icon: icon-sitemap
+            doctors:
+                label: Доктора
+                url: wdesighners/services/doctors
+                icon: icon-user-plus
+            analizes:
+                label: Анализы
+                url: wdesighners/services/analyzes
+                icon: icon-flask
+            analisis_categories:
+                label: 'Категории анализов'
+                url: wdesighners/services/analisiscategories
+                icon: icon-sitemap

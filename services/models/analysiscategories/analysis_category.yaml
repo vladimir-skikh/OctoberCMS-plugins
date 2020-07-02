@@ -1,0 +1,5 @@
+fields:
+    category_name:
+        label: 'Название категории'
+        span: auto
+        type: text

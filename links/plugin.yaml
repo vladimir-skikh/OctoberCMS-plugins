@@ -1,0 +1,20 @@
+plugin:
+    name: 'wdesighners.links::lang.plugin.name'
+    description: 'wdesighners.links::lang.plugin.description'
+    author: w-desighners
+    icon: oc-icon-link
+    homepage: ''
+permissions:
+    wdesighners.links.manage_link:
+        tab: 'wdesighners.links::lang.links.manage_link'
+        label: 'wdesighners.links::lang.links.manage_link'
+navigation:
+    Links:
+        label: 'wdesighners.links::lang.plugin.name'
+        url: wdesighners/links/links
+        icon: icon-link
+        sideMenu:
+            add-link:
+                label: 'Add link'
+                url: wdesighners/links/links
+                icon: icon-plus-circle

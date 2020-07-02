@@ -1,0 +1,10 @@
+name: Links
+modelClass: WDesighners\Links\Models\Links
+form: $/wdesighners/links/models/links/addlink.yaml
+defaultRedirect: wdesighners/links/links
+create:
+    redirect: 'wdesighners/links/links/update/:id'
+    redirectClose: wdesighners/links/links
+update:
+    redirect: wdesighners/links/links
+    redirectClose: wdesighners/links/links

@@ -1,0 +1,14 @@
+columns:
+    article_title:
+        label: 'wdesighners.articles::lang.article.article_title'
+        type: text
+        searchable: true
+    article_description:
+        label: 'wdesighners.articles::lang.article.article_description'
+        type: text
+        searchable: false
+    article_url:
+        label: 'wdesighners.articles::lang.article.article_url'
+        type: text
+        searchable: false
+        sortable: false

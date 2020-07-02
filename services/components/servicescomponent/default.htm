@@ -1,0 +1,62 @@
+{%  set services = __SELF__.services %}
+{% set category_name = __SELF__.category_name %}
+{% set doctors = __SELF__.doctors %}
+{% set id = __SELF__.id %}
+
+{% if (doctors != NULL)  %}
+<table class="services_table" id="services_list">
+    
+  <tr class="table-category-raw">
+    <th colspan="2" class="table-service-category">{{category_name}}</th>
+  </tr>
+  
+  <tr class="table-header-raw">
+    <td class="table-service-category">Наименование услуги</td>
+    <td class="table-header-price table-service-category" >Стоимость</td>
+  </tr>
+  
+
+    {% for doctor in doctors %}
+        {% set tmp = 0 %}
+        {%  for service in services %}
+            {% if (doctor.specialty == service.specialty) %}
+                {% set tmp = tmp + 1 %}
+            {% endif %}
+        {%  endfor %}
+        {% if (tmp != 0) %}
+        <tr class="table-category-raw">
+            <td colspan="3" class="table-service-category">
+                {{doctor.specialty}}
+            </td>
+        </tr>
+            {%  for service in services %}
+                {% if (doctor.specialty == service.specialty) %}
+                  <tr id="service_raw">
+                    <td class="table-service-name">{{service.service_name}}</td>
+                    <td>{{service.service_price_first}} руб.</td>
+                  </tr>
+                {% endif %}
+            {%  endfor %}
+        {% endif %}
+    {% endfor %}
+</table>
+{% else  %}
+<table class="services_table" id="services_list">
+  <tr class="table-category-raw">
+    <th colspan="2" class="table-service-category">{{category_name}}</th>
+  </tr>
+  
+  <tr class="table-header-raw">
+    <td class="table-service-category">Наименование услуги</td>
+    <td class="table-header-price table-service-category" >Стоимость</td>
+  </tr>
+{%  for service in services %}
+  <tr id="service_raw">
+    <td class="table-service-name">{{service.service_name}}</td>
+    <td>{{service.service_price_first}} руб.</td>
+  </tr>
+{%  endfor %}
+
+</table>
+{% endif %}
+

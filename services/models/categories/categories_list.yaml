@@ -1,0 +1,11 @@
+columns:
+    category_name:
+        label: 'Название категории'
+        type: text
+        searchable: true
+        sortable: true
+    category_slug:
+        label: 'URL категории'
+        type: text
+        searchable: true
+        sortable: true

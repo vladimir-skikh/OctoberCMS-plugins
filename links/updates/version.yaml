@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Drop table wdesighners_links_'
+    - builder_table_delete_wdesighners_links_.php
+1.0.3:
+    - 'Created table wdesighners_links_'
+    - builder_table_create_wdesighners_links_.php
+1.0.4:
+    - 'Updated table wdesighners_links_'
+    - builder_table_update_wdesighners_links_.php
+1.0.5:
+    - 'Updated table wdesighners_links_'
+    - builder_table_update_wdesighners_links__2.php
+1.0.6:
+    - 'Updated table wdesighners_links_'
+    - builder_table_update_wdesighners_links__3.php

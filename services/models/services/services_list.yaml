@@ -1,0 +1,21 @@
+columns:
+    service_name:
+        label: 'Название услуги'
+        type: text
+        searchable: true
+    service_price_first:
+        label: 'Цена услуги (первичное)'
+        type: text
+        sortable: true
+    category:
+        label: 'Категория услуги'
+        type: text
+        searchable: true
+        sortable: true
+        select: category_name
+        relation: category
+    specialty:
+        label: 'Специальность врача'
+        type: text
+        searchable: true
+        sortable: true

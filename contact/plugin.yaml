@@ -1,0 +1,6 @@
+plugin:
+    name: 'wdesighners.contact::lang.plugin.name'
+    description: 'wdesighners.contact::lang.plugin.description'
+    author: w-desighners
+    icon: oc-icon-send
+    homepage: ''

@@ -1,0 +1,10 @@
+columns:
+    select:
+        label: 'wdesighners.links::lang.links.select'
+        type: text
+    link_value:
+        label: 'wdesighners.links::lang.links.link_value'
+        type: text
+    link_href:
+        label: 'wdesighners.links::lang.links.link_href'
+        type: text

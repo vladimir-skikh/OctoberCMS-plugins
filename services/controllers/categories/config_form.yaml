@@ -1,0 +1,11 @@
+name: Categories
+modelClass: WDesighners\Services\Models\Categories
+form: $/wdesighners/services/models/categories/categories.yaml
+defaultRedirect: wdesighners/services/categories
+create:
+    redirect: 'wdesighners/services/categories/update/:id'
+    redirectClose: wdesighners/services/categories
+update:
+    redirect: wdesighners/services/categories
+    redirectClose: wdesighners/services/categories
+preview: {  }

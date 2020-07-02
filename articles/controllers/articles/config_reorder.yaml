@@ -1,0 +1,4 @@
+title: Articles
+modelClass: WDesighners\Articles\Models\Article
+toolbar:
+    buttons: reorder_toolbar

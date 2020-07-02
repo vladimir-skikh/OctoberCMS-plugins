@@ -1,0 +1,11 @@
+name: Services
+modelClass: WDesighners\Services\Models\Services
+form: $/wdesighners/services/models/services/services.yaml
+defaultRedirect: wdesighners/services/services
+create:
+    redirect: 'wdesighners/services/services/update/:id'
+    redirectClose: wdesighners/services/services
+update:
+    redirect: wdesighners/services/services
+    redirectClose: wdesighners/services/services
+preview: {  }

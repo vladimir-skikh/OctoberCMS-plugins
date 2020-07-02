@@ -1,0 +1,11 @@
+name: AnalisisCategories
+modelClass: WDesighners\Services\Models\AnalysisCategories
+form: $/wdesighners/services/models/analysiscategories/analysis_category.yaml
+defaultRedirect: wdesighners/services/analisiscategories
+create:
+    redirect: 'wdesighners/services/analisiscategories/update/:id'
+    redirectClose: wdesighners/services/analisiscategories
+update:
+    redirect: wdesighners/services/analisiscategories
+    redirectClose: wdesighners/services/analisiscategories
+preview: {  }

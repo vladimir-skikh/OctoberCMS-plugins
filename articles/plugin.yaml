@@ -1,0 +1,20 @@
+plugin:
+    name: 'wdesighners.articles::lang.plugin.name'
+    description: 'wdesighners.articles::lang.plugin.description'
+    author: w-desighners
+    icon: oc-icon-book
+    homepage: ''
+permissions:
+    wdesighners.articles.manage_article:
+        tab: 'wdesighners.articles::lang.article.manage_article'
+        label: 'wdesighners.articles::lang.article.manage_article'
+navigation:
+    article:
+        label: 'wdesighners.articles::lang.plugin.name'
+        url: wdesighners/articles/articles
+        icon: icon-book
+        sideMenu:
+            new_article:
+                label: 'New article'
+                url: wdesighners/articles/articles
+                icon: icon-plus

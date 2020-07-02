@@ -1,0 +1,38 @@
+fields:
+    second_name:
+        label: Фамилия
+        span: auto
+        required: 1
+        type: text
+    specialty:
+        label: Специальность
+        span: right
+        required: 1
+        type: text
+    first_name:
+        label: Имя
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: URL
+        span: auto
+        required: 1
+        preset:
+            field: specialty
+            type: slug
+        type: text
+    middle_name:
+        label: Отчество
+        span: auto
+        type: text
+    experience:
+        label: 'Опыт работы'
+        span: right
+        required: 0
+        type: text
+    show:
+        label: 'Показывать ли врача на сайте?'
+        span: right
+        type: checkbox
+        comment: 'Нажмите, если необходимо показывать врача на сайте; Не выберайте, если показывать врача не надо.'

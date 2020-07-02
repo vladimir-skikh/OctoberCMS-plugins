@@ -1,0 +1,12 @@
+list: $/wdesighners/articles/models/article/article_list.yaml
+modelClass: WDesighners\Articles\Models\Article
+title: Articles
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'wdesighners/articles/articles/update/:id'

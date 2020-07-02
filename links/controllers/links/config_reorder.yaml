@@ -1,0 +1,4 @@
+title: Links
+modelClass: WDesighners\Links\Models\Links
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,11 @@
+name: Articles
+modelClass: WDesighners\Articles\Models\Article
+form: $/wdesighners/articles/models/article/article.yaml
+defaultRedirect: wdesighners/articles/articles
+create:
+    redirect: 'wdesighners/articles/articles/update/:id'
+    redirectClose: wdesighners/articles/articles
+update:
+    redirect: wdesighners/articles/articles
+    redirectClose: wdesighners/articles/articles
+preview: {  }

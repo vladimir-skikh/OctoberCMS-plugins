@@ -1,0 +1,4 @@
+title: Doctors
+modelClass: WDesighners\Services\Models\Doctors
+toolbar:
+    buttons: reorder_toolbar

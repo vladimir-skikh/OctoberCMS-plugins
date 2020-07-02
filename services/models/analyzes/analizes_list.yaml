@@ -1,0 +1,24 @@
+columns:
+    analysis_code:
+        label: Артикул
+        type: text
+        searchable: true
+        sortable: true
+    analysis_name:
+        label: 'Название анализа'
+        type: text
+        searchable: true
+        sortable: false
+    analysis_price:
+        label: Цена
+        type: number
+    analysis_time:
+        label: 'Срок выполнения'
+        type: text
+    category:
+        label: 'Категория услуги'
+        type: text
+        searchable: true
+        sortable: true
+        select: category_name
+        relation: category

@@ -1,0 +1,29 @@
+fields:
+    category:
+        label: 'Категория анализа'
+        nameFrom: id
+        descriptionFrom: description
+        select: category_name
+        span: auto
+        required: 1
+        type: relation
+    analysis_name:
+        label: 'Название анализа'
+        span: auto
+        required: 1
+        type: text
+    analysis_code:
+        label: Артикул
+        span: auto
+        required: 1
+        type: text
+    analysis_price:
+        label: 'Цена анализа'
+        span: auto
+        required: 1
+        type: number
+    analysis_time:
+        label: 'Срок выполнения'
+        span: auto
+        required: 1
+        type: text

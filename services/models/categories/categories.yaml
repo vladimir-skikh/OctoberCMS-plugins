@@ -1,0 +1,26 @@
+fields:
+    category_name:
+        label: 'Название категории'
+        span: auto
+        required: 1
+        type: text
+    category_slug:
+        label: 'URL категории'
+        span: auto
+        preset:
+            field: category_name
+            type: slug
+        type: text
+    category_image:
+        label: 'Изображение для категории'
+        mode: image
+        imageWidth: '50'
+        imageHeight: '50'
+        useCaption: true
+        thumbOptions:
+            mode: auto
+            extension: auto
+        span: auto
+        required: 0
+        oc.commentPosition: above
+        type: fileupload
